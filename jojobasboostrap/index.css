@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--fontPrimary);
-    background-color: var(--primary);
+    background-color: var(--primary) !important ; 
 
 }
 
@@ -605,6 +605,14 @@ main .Encabezado {
     top: 34px;
 }
 
+.container-fluid{
+    background-color: var(--primary);
+}
+
 
 
 /* Estilos VentanaInfo */
+
+/* Estilos Carrito */
+
+
