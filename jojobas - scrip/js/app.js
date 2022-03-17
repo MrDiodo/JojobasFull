@@ -14,14 +14,14 @@ function addRequiredClass() {
 
 window.onload = addRequiredClass
 
-let hamburger = document.querySelector('.hamburger')
+let paty = document.querySelector('.paty')
 let mobileNav = document.querySelector('.nav-list')
 
-let bars = document.querySelectorAll('.hamburger span')
+let bars = document.querySelectorAll('.paty span')
 
 let isActive = false
 
-hamburger.addEventListener('click', function() {
+paty.addEventListener('click', function() {
     mobileNav.classList.toggle('open')
     if(!isActive) {
         bars[0].style.transform = 'rotate(45deg)'

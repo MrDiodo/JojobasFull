@@ -45,8 +45,8 @@ a {
     --pure: rgb(0, 0, 0);
     --smoke: whitesmoke;
     --dark-gray: #999;
-    --animacion: 
-    --fontPrimary: "Sofia Pro", sans-serif;
+    --animacion:
+        --fontPrimary: "Sofia Pro", sans-serif;
 }
 
 
@@ -62,17 +62,17 @@ a {
     justify-content: space-between;
 }
 
-.brand {
+.logoNav {
     display: flex;
     align-items: center;
 }
 
-.brand svg {
+.logoNav svg {
     height: 30px;
     margin-right: 10px;
 }
 
-.brand svg path {
+.logoNav svg path {
     fill: var(--pure);
 }
 
@@ -81,6 +81,7 @@ a {
     display: flex;
     align-items: center;
 }
+
 .nav-wrapper ul.nav-list li {
     margin-left: 30px;
     padding: 20px 0;
@@ -141,6 +142,7 @@ main section.header h4 {
     color: var(--dark-gray);
     margin-bottom: 20px;
 }
+
 nav ul.dropdown-list {
     list-style-type: none;
     display: block;
@@ -160,9 +162,9 @@ nav ul.dropdown-list {
     padding: 5px 0;
 }
 
-.nav-wrapper ul.dropdown-list  li a {
+.nav-wrapper ul.dropdown-list li a {
     color: var(--dark);
-} 
+}
 
 .nav-wrapper ul.nav-list li:hover .dropdown-list {
     opacity: 1;
@@ -175,24 +177,25 @@ nav ul.dropdown-list {
         opacity: 0;
         transform: translateX(-50%) translateY(50px);
     }
+
     100% {
         opacity: 1;
-        transform: translateX(-50%) translateY(20px); 
+        transform: translateX(-50%) translateY(20px);
     }
 }
 
-.hamburger {
+.paty {
     display: none;
 }
 
-.mobile .hamburger {
+.mobile .paty {
     display: flex;
     flex-direction: column;
     padding: 20px 0;
     cursor: pointer;
 }
 
-.mobile .hamburger span {
+.mobile .paty span {
     background: var(--pure);
     width: 28px;
     height: 2px;
@@ -215,16 +218,17 @@ nav ul.dropdown-list {
     transition: all .3s ease-in-out;
 }
 
-.hamburger, .brand {
+.paty,
+.logoNav {
     z-index: 9999;
 }
 
 .mobile ul.nav-list.open {
     opacity: 1;
-    pointer-events: auto;  
+    pointer-events: auto;
 }
 
-.mobile .hamburger span {
+.mobile .paty span {
     transform-origin: left;
     transition: all .3s ease-in-out;
 }
@@ -562,6 +566,8 @@ main .Encabezado {
     display: grid;
     grid-template-columns: 785px 655px;
     grid-template-rows: 202px 543px 90px;
+    padding: 30px;
+    grid-gap: 10pxs;
 }
 
 .titulo {
@@ -573,6 +579,7 @@ main .Encabezado {
 
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+
 }
 
 .precioYcarrito {
@@ -584,13 +591,11 @@ main .Encabezado {
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    position: absolute;
-    width: 593px;
-    height: 917px;
-    left: 785px;
-    top: 34px;
+   
 }
 
-
+.pantallaProductos{
+    background-image: url(Fotos\backPantallaProductos.png);
+}
 
 /* Estilos VentanaInfo */
