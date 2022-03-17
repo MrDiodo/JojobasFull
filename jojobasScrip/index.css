@@ -262,7 +262,7 @@ nav ul.dropdown-list {
 }
 
 
-main .Encabezado {
+.BackIndex {
     background-image: url(../jojobas/Fotos/fondo.png);
     height: 750px;
     left: 0px;
@@ -591,11 +591,41 @@ main .Encabezado {
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-   
+    justify-content: center;
+    align-content: center;
+
+
 }
 
-.mainPantallaProductos{
-    background-image: url();
+
+.BackgroundPantallaProductos {
+    background-image: url(../jojobasScrip/Fotos/backPantallaProductos.jpg);
+}
+
+.barrasGeneralPantallaProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    align-items: center;
+    width: 856px;
+    height: 418px;
+    left: 497px;
+
+    top: 1252px;
+
+
+
+}
+
+.fotoLogo2PantallaProductos {
+    position: absolute;
+    width: 355px;
+    height: 355px;
+    left: 98px;
+    top: 1252px;
+
 }
 
 /* Estilos VentanaInfo */
