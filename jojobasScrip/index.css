@@ -4,7 +4,7 @@
     --fontPrimary: "Sofia Pro", sans-serif;
 
 }
-
+ 
 
 
 
@@ -276,6 +276,7 @@ nav ul.dropdown-list {
     height: 139.99px;
     left: 46.36px;
     top: 383.9px;
+    font-size: 64px;
 }
 
 .Encabezado__BotonG {
@@ -285,6 +286,7 @@ nav ul.dropdown-list {
     height: 28.71px;
     left: 136.87px;
     top: 590.1px;
+    font-size: 26px;
 }
 
 .fotoYBack {
@@ -333,6 +335,8 @@ nav ul.dropdown-list {
     height: 142.45px;
     left: 713.76px;
     top: 1045.72px;
+    text-align: left;
+    font-size: 36px;
 }
 
 .PrimerProducto__Boton {
@@ -341,6 +345,8 @@ nav ul.dropdown-list {
     height: 34.45px;
     left: 1082.04px;
     top: 1286.72px;
+    text-align: right;
+    font-size: 26px;
 
 }
 
@@ -370,29 +376,28 @@ nav ul.dropdown-list {
     height: 45px;
     left: 365px;
     top: 1530px;
-
     font-family: Sofia Pro;
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
     line-height: 30px;
+    text-align: center;
 }
 
 .PrimerParrafo__boton {
-
     position: absolute;
     width: 143px;
     height: 36px;
     left: 1149px;
     top: 1655px;
     font-weight: 300;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 36px;
+    text-align: right;
 
 }
 
 .SegundoProducto__Imagen {
-
     position: absolute;
     width: 516px;
     height: 516px;
@@ -417,6 +422,7 @@ nav ul.dropdown-list {
     height: 516px;
     left: 73px;
     top: 1792px;
+
 }
 
 
@@ -427,6 +433,8 @@ nav ul.dropdown-list {
     height: 142.45px;
     left: 201px;
     top: 1950px;
+    text-align: left;
+    font-size: 36px;
 }
 
 .SegundoParrafo__Boton {
@@ -438,7 +446,7 @@ nav ul.dropdown-list {
 
 
     font-weight: 300;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 36px;
 
 }
@@ -524,6 +532,12 @@ nav ul.dropdown-list {
 
 }
 
+.Cuadrados1__Cubo1__Boton{
+    font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+}
+    
 .barrasGeneral {
     display: flex;
     flex-direction: row;
@@ -628,4 +642,66 @@ nav ul.dropdown-list {
 
 }
 
+.footerPantallaProductos{
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    left: 0px;
+    top: 1670px;
+    text-align: center;
+
+}
+.cantidad{
+    position: absolute;
+    width: 111px;
+    height: 74px;
+    left: 91px;
+    background-color: var(--primary);
+}
+
+.agregarCarrito{
+    position: absolute;
+width: 174px;
+height: 74px;
+left: 210px;
+background-color: var(--primary);
+}
+
+.descripcionProducto{
+    font-size: 30px;
+    text-align: left;
+}
+
+.titulo h1{
+    font-size: 60px;
+}
+
+.titulo h2{
+    font-size: 30px;
+}
 /* Estilos VentanaInfo */
+
+.ventaInfoBack{
+    background-image: url(Fotos\ventaInfoBack.jpg);
+    width: 1440px;
+height: 658px;
+left: 0px;
+top: 0px;
+
+}
+
+.h1VentaInfo{
+    position: absolute;
+width: 366px;
+height: 65px;
+left: 138px;
+top: 297px;
+
+font-family: 'Sofia Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 65px;
+}
+
+
