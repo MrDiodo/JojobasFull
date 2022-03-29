@@ -1,0 +1,10 @@
+.gridCubos {
+    display: grid;
+    grid-template-columns: 345px 345px 345px;
+    grid-template-rows: 345px 345px 345px;
+    justify-content: center;
+    align-content: center;
+    padding: 38px;
+    grid-gap: 38px;
+
+}
