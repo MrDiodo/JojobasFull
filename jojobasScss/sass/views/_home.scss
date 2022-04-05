@@ -11,7 +11,7 @@
   height: 139.99px;
   left: 46.36px;
   top: 383.9px;
-  font-size: 64px;
+  
 }
 
 .Encabezado__BotonG {
@@ -20,7 +20,7 @@
   height: 28.71px;
   left: 136.87px;
   top: 590.1px;
-  font-size: 26px;
+  
 }
 
 .fotoYBack {
@@ -75,7 +75,7 @@
   left: 713.76px;
   top: 1045.72px;
   text-align: left;
-  font-size: 36px;
+  
 }
 
 .PrimerProducto__Boton {
@@ -85,7 +85,7 @@
   left: 1082.04px;
   top: 1286.72px;
   text-align: right;
-  font-size: 26px;
+  
 }
 
 .PrimerParrafo__Imagen {
@@ -113,7 +113,6 @@
   font-family: Sofia Pro;
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
@@ -125,7 +124,6 @@
   left: 1149px;
   top: 1655px;
   font-weight: 300;
-  font-size: 26px;
   line-height: 36px;
   text-align: right;
 }
@@ -161,7 +159,7 @@
   left: 201px;
   top: 1950px;
   text-align: left;
-  font-size: 36px;
+  
 }
 
 .SegundoParrafo__Boton {
@@ -172,7 +170,7 @@
   top: 2210px;
 
   font-weight: 300;
-  font-size: 26px;
+  
   line-height: 36px;
 }
 
@@ -254,21 +252,12 @@
 
 .Cuadrados1__Cubo1__Boton {
   font-weight: 300;
-  font-size: 20px;
   line-height: 30px;
 }
 
 .barrasGeneral {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  position: absolute;
-  align-items: center;
-  width: 856px;
-  height: 418px;
-  left: 497px;
-  top: 3934px;
+  @include flex(row ,space-around,center,absolute);
+  
 }
 
 .fotoLogo2 {

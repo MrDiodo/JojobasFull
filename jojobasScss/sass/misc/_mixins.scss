@@ -7,4 +7,20 @@
     padding: 38px;
     grid-gap: 38px;
 
+    
+
 }
+@mixin flex ($direction, $justify, $aling, $position) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aling;
+    position:$position ;
+    width: 856px;
+  height: 418px;
+  left: 497px;
+  top: 3934px;
+   
+}
+
+

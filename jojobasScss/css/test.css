@@ -1,3 +1,21 @@
+.fontXLarge {
+  font-size: 3.75rem; }
+
+.fontXLargeAlternative {
+  font-size: 4rem; }
+
+.fontLarge {
+  font-size: 2.25rem; }
+
+.fontMedium {
+  font-size: 1.875rem; }
+
+.fontSamall {
+  font-size: 1.625rem; }
+
+.fontXsmall {
+  font-size: 1.25rem; }
+
 *,
 *::after,
 *::before {
@@ -228,16 +246,14 @@ nav ul.dropdown-list {
   width: 522.7px;
   height: 139.99px;
   left: 46.36px;
-  top: 383.9px;
-  font-size: 64px; }
+  top: 383.9px; }
 
 .Encabezado__BotonG {
   position: absolute;
   width: 156.05px;
   height: 28.71px;
   left: 136.87px;
-  top: 590.1px;
-  font-size: 26px; }
+  top: 590.1px; }
 
 .fotoYBack {
   position: absolute;
@@ -283,8 +299,7 @@ nav ul.dropdown-list {
   height: 142.45px;
   left: 713.76px;
   top: 1045.72px;
-  text-align: left;
-  font-size: 36px; }
+  text-align: left; }
 
 .PrimerProducto__Boton {
   position: absolute;
@@ -292,8 +307,7 @@ nav ul.dropdown-list {
   height: 34.45px;
   left: 1082.04px;
   top: 1286.72px;
-  text-align: right;
-  font-size: 26px; }
+  text-align: right; }
 
 .PrimerParrafo__Imagen {
   position: absolute;
@@ -318,7 +332,6 @@ nav ul.dropdown-list {
   font-family: Sofia Pro;
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
   line-height: 30px;
   text-align: center; }
 
@@ -329,7 +342,6 @@ nav ul.dropdown-list {
   left: 1149px;
   top: 1655px;
   font-weight: 300;
-  font-size: 26px;
   line-height: 36px;
   text-align: right; }
 
@@ -360,8 +372,7 @@ nav ul.dropdown-list {
   height: 142.45px;
   left: 201px;
   top: 1950px;
-  text-align: left;
-  font-size: 36px; }
+  text-align: left; }
 
 .SegundoParrafo__Boton {
   position: absolute;
@@ -370,7 +381,6 @@ nav ul.dropdown-list {
   left: 547px;
   top: 2210px;
   font-weight: 300;
-  font-size: 26px;
   line-height: 36px; }
 
 .gridCubos {
@@ -439,16 +449,14 @@ nav ul.dropdown-list {
 
 .Cuadrados1__Cubo1__Boton {
   font-weight: 300;
-  font-size: 20px;
   line-height: 30px; }
 
 .barrasGeneral {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   justify-content: space-around;
-  position: absolute;
   align-items: center;
+  position: absolute;
   width: 856px;
   height: 418px;
   left: 497px;
