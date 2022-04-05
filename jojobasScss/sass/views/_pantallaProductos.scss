@@ -39,18 +39,13 @@
 }
 
 .barrasGeneralPantallaProductos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
-    position: absolute;
-    align-items: center;
+
     width: 856px;
     height: 418px;
     left: 497px;
-
     top: 1252px;
 
+    @include flex(row ,space-around,center,absolute);
 
 
 }

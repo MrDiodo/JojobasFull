@@ -452,15 +452,15 @@ nav ul.dropdown-list {
   line-height: 30px; }
 
 .barrasGeneral {
+  width: 856px;
+  height: 418px;
+  left: 497px;
+  top: 3934px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
-  width: 856px;
-  height: 418px;
-  left: 497px;
-  top: 3934px; }
+  position: absolute; }
 
 .fotoLogo2 {
   position: absolute;
@@ -498,16 +498,15 @@ nav ul.dropdown-list {
   background-image: url("../../img/backPantallaProductos.jpg"); }
 
 .barrasGeneralPantallaProductos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  position: absolute;
-  align-items: center;
   width: 856px;
   height: 418px;
   left: 497px;
-  top: 1252px; }
+  top: 1252px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute; }
 
 .fotoLogo2PantallaProductos {
   position: absolute;
