@@ -565,16 +565,15 @@ nav ul.dropdown-list {
   top: 167px; }
 
 .barrasGeneralVentaInfo {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  position: absolute;
-  align-items: center;
   width: 856px;
   height: 418px;
   left: 479px;
-  top: 1786px; }
+  top: 1786px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute; }
 
 .fotoLogo2VentaInfo {
   position: absolute;
